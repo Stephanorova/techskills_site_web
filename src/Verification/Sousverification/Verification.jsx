@@ -89,7 +89,7 @@ const Verification = () => {
       </span>
 
       <footer className="py-4 text-center text-gray-600">
-        © 2024 Sustainable Management Systems Consulting. All rights reserved.
+        © 2024 TechSkils Learning Institute. All right Reserved.
       </footer>
     </div>
     

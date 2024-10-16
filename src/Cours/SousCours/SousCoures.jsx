@@ -29,7 +29,7 @@ const SousCoures = () => {
         }
        </div>
     </div>
-    <p>© TechSkills. All Rights Reserved 2024</p>
+    <p>© 2024 TechSkils Learning Institute. All right Reserved.</p>
     </div>
 </div>
   )
