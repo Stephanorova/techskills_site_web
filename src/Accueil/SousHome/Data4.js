@@ -6,7 +6,7 @@ export const data4 = [
     },
     {
         id:2,
-        image:"/image/suite (6).jpg",
+        image:"/image/suite (6).JPG",
         info: "Simulations Réalistes : Utilisation de simulations réalistes pour des scénarios tels que l'évacuation d'urgence."
     },
     {

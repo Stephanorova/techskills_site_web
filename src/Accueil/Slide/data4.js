@@ -1,7 +1,7 @@
 export const data4 = [
     {
         id:1,
-        image:"/image/certif.jpg"
+        image:"/image/certif.JPG"
     },
     {
         id:2,
