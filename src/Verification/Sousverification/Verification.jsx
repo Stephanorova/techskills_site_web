@@ -19,7 +19,7 @@ const Verification = () => {
       setError('')
     } catch (error) {
       setRef('')
-      setError('Certificat non trouvé');
+      setError('Etudiant non trouvé');
     }
   };
   
@@ -29,7 +29,7 @@ const Verification = () => {
   <div className="titrehaute">
   <span className='verificationspan'>- / Verification / students</span>
     <h1>
-        Vérification d'Étudiant qui suivie les formations
+        Vérification d'étudiant qui suivie nos formations
     </h1>
   </div>
    <div className='cadre'>
