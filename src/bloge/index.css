@@ -1,0 +1,11 @@
+.bloge{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 130px;
+
+    ul li{
+        list-style-type: none;
+        cursor: pointer;
+    }
+}

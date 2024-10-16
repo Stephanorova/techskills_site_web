@@ -1,0 +1,52 @@
+.head{
+    padding: 20px 0;
+    height: 10vh;
+}
+.icon{
+    color: #f9c231;
+    font-size: 25px;
+}
+.social{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
+}
+.social span{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 14px;
+    
+}
+.social span i{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .head{
+        padding: 20px 0;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon{
+        color: #f9c231;
+        font-size: 22px;
+    }
+    .social{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 0.8rem;
+    }
+    .social span{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        color: #FFFFFF;
+        font-size: 12px;
+        
+    }
+}

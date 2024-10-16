@@ -1,0 +1,213 @@
+.bonneraison2{
+    width: 100%;
+    height: 150vh;
+    padding: 30px;
+    background-color: #FFFFFF;
+    clip-path: polygon(0 10%, 100% 0, 100% 100%,0 100%);
+}
+.bonneraison2 h1{
+    font-size: 20px;
+    margin-top: 10rem;
+    font-family:  serif;
+    display: flex;
+    justify-content: end;
+}
+
+.letrebonneraison2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: auto;
+    color:  #4A4A4A;
+    margin-top: 5rem;
+
+}
+
+.letrebonneraison2 .letres{
+    margin-top: 1rem;
+    width: 47%;
+    color:  #4A4A4A;
+    display: flex;
+   
+}
+.letrebonneraison2 .letres img{
+  width: 140px;
+  height: 100px;
+}
+.letrebonneraison2 .letres span{
+    padding: 0 20px;
+    display: flex;
+    height: 98%;
+    align-items: center;
+    justify-content: center;
+    color:  #000000;
+    font-size: 14px;
+    background-color:  #F5F5F5;
+}
+
+.bonneraison{
+    width: 100%;
+    height: 120vh;
+    padding: 30px;
+    background-color:  #F5F5F5;
+    display: flex;
+    color: #000000;
+    margin-top: 6rem;
+   
+}
+.bonneraison h1{
+    font-size: 20px;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.letrebonneraison{
+    width: 100%;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: auto;
+    color:  #4A4A4A;
+    margin-top: 5rem;
+    
+}
+
+.letrebonneraison .letres{
+    width: 47%;
+    color:  #4A4A4A;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 2rem;
+}
+
+.letres p{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color:  #4A4A4A;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    background-color: #E5E5E5;
+}
+
+
+
+
+
+@media all and (max-width: 768px) {
+    .soushome{
+        width: 100%;
+        height: auto;
+        padding: 0 10px;
+        background-color:  #FFFFFF;
+        display: flex;
+        
+    }
+    
+.titres h1{
+    font-size: 20px;
+    padding: 10rem;
+    margin-left: -10rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bonneraison{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background-color:  #F5F5F5;
+    display: flex;
+    color: #000000;
+    margin-top: 6rem;
+   
+}
+
+
+.letrebonneraison{
+    width: auto;
+    display: flex;
+    color:  #4A4A4A;
+    
+}
+
+.letrebonneraison .letres{
+    width: 100%;
+    color:  #4A4A4A;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 2rem;
+}
+
+.letres p{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color:  #4A4A4A;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    background-color: #E5E5E5;
+}
+
+.bonneraison2{
+    width: 100%;
+    height: 210vh;
+    padding: 30px;
+    justify-content: center;
+    background-color: #FFFFFF;
+    clip-path: polygon(0 5%, 100% 0, 100% 100%,0 100%);
+}
+.bonneraison2 h1{
+    font-size: 20px;
+     position: relative;
+     top: 5rem;
+    font-family:  serif;
+    display: flex;
+    justify-content: end;
+}
+
+.letrebonneraison2{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+    color:  #4A4A4A;
+    margin-top: 10rem;
+
+}
+
+.letrebonneraison2 .letres{
+    margin-top: 1rem;
+    width: 100%;
+    color:  #4A4A4A;
+    display: flex;
+   
+}
+.letrebonneraison2 .letres img{
+  width: 80px;
+  height: 60px;
+}
+.letrebonneraison2 .letres span{
+    padding: 0 5px;
+    display: flex;
+    width: 98%;
+    margin-top: -17px;
+    align-items: center;
+    justify-content: center;
+    color:  #000000;
+    font-size: 12px;
+    background-color: #FFFFFF;
+}
+
+}

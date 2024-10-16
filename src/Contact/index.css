@@ -1,0 +1,39 @@
+.contact{
+    background: url("../../public/image/contact.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 130vh;
+    padding-top: 20%;
+    padding-right: 50px;
+    
+}
+.contact .row img{
+    width: 800px;
+    display: flex;
+    
+}
+
+.souscontact{
+    margin-top: 35%;
+}
+
+@media all and (max-width: 768px) {
+    .contact{
+        background-position: right;
+        margin-top: 10%;
+        height: 80vh;
+    }
+    .contact .row img{
+        width: 400px;
+        display: flex;
+        margin-top: 35%; 
+    }
+    .souscontact{
+        margin-top: 70%;
+    }
+}
