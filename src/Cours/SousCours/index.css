@@ -95,5 +95,16 @@ position: relative;
     .containers p:nth-child(3){
         display: none;
     }
+    .toutelescours p{
+        margin-left: 20px;
+        width: 100%;
+    }
+    .rawp{
+        display: flex;
+        width: 100%;
+        margin: 0 20px;
+        gap: 8rem;
+        margin-top: 80px;
+    }
 }
 
