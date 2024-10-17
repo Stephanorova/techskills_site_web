@@ -57,7 +57,7 @@
 .qrcode img{
    width: 300px;
    margin-top: 1rem;
-   margin-left: 2.5rem;
+   margin-left: 0.3rem;
 }
 @media screen and (max-width: 768px) {
     .contacte{
