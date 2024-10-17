@@ -59,7 +59,7 @@ const CoursId = () => {
          <h5>SUBSCRIBE TO OUR NEWSLETTER</h5>
          </section>   
         <form onSubmit={sendEmail} className="mail" ref={form}>
-        <input type="text"  name='user_email'  onChange={(e)=>setSaisire({...saisir , email : e.target.value})} placeholder='Enter your mail' />
+        <input type="text"  name='user_email'  onChange={(e)=>setSaisire({...saisir , email : e.target.value})} placeholder='Enter your email' />
         <button >SUBSCRIBE</button>
         </form>
         </div>
