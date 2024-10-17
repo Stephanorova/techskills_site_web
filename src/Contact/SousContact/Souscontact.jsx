@@ -37,7 +37,7 @@ const Souscontact = () => {
             <iframe src={maps}/>
        </div>
        <div className="righe">
-           <h1>Contactez-nous</h1>
+           <h1>Contact us</h1>
            <p>Learning institute.</p>
            <div className="titre gride">
              <div className="box">
@@ -52,16 +52,16 @@ const Souscontact = () => {
            </div>
            <form onSubmit={sendEmail} className="forme" ref={form}>
                <div className="flexSB">
-                   <input type="text" name='user_name' placeholder="Nom" onChange={(e)=>setSaisire({...saisir , nom : e.target.value})}/>
-                   <input type="email" name='user_email' placeholder="email" onChange={(e)=>setSaisire({...saisir , email : e.target.value})}/>
+                   <input type="text" name='user_name' placeholder="Your Name" onChange={(e)=>setSaisire({...saisir , nom : e.target.value})}/>
+                   <input type="email" name='user_email' placeholder="Your Email" onChange={(e)=>setSaisire({...saisir , email : e.target.value})}/>
                </div>
-               <textarea cols="30" name='message'  rows="10" placeholder="ecrivez votre message..." onChange={(e)=>setSaisire({...saisir , message: e.target.value})}/>
-               <button className="primary-btn">Envoyé</button>
+               <textarea cols="30" name='message'  rows="10" placeholder="Write your message..." onChange={(e)=>setSaisire({...saisir , message: e.target.value})}/>
+               <button className="primary-btn">Send</button>
            </form>
        </div>
   </div>
   <div className="qrcode">
-       <h1>Vous pouvez scaner cette QR code</h1>
+       <h1>You can scan this QR code</h1>
        <img src="/image/qr.png" alt="" />
   </div>
   </section>

@@ -1,53 +1,51 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { data3 } from './Data3'
 import { data4 } from './Data4'
-import {useHistory} from "react-router-dom"
 import'./index.css'
 import Slide from '../Slide/Slide';
-import { useRef } from "react"
-import  EmailJS  from "@emailjs/browser"
+
 
 
 
 
 const SousHome = () => {
-    const [isOpen, setIsOpen] = useState(false);
-    const [saisir,setSaisire] = useState({
-      nom: '',
-      email : '',
-      message: '',
-   })
+  //   const [isOpen, setIsOpen] = useState(false);
+  //   const [saisir,setSaisire] = useState({
+  //     nom: '',
+  //     email : '',
+  //     message: '',
+  //  })
 
-    const toggleForm = () => {
-      setIsOpen(!isOpen);
-    };
+  //   const toggleForm = () => {
+  //     setIsOpen(!isOpen);
+  //   };
   
-    const form = useRef();
+  //   const form = useRef();
 
-    const sendEmail = (e)=>{
-      e.preventDefault()
-      const send =  EmailJS.sendForm('service_bs22p5j','template_rxb6ttx' ,form.current,'goflVDn8UP0myT3qG')
-      .then((result) => {
-        console.log(result.text);
-        window.location.reload(true)
-      })
-      .catch(error =>console.log(error.text))
+  //   const sendEmail = (e)=>{
+  //     e.preventDefault()
+  //     const send =  EmailJS.sendForm('service_bs22p5j','template_rxb6ttx' ,form.current,'goflVDn8UP0myT3qG')
+  //     .then((result) => {
+  //       console.log(result.text);
+  //       window.location.reload(true)
+  //     })
+  //     .catch(error =>console.log(error.text))
      
-        if (send) {
-             alert("success")
-        } else{
-         alert("erreur")
-        }}
+  //       if (send) {
+  //            alert("success")
+  //       } else{
+  //        alert("erreur")
+  //       }}
   
-    const map ="https://drive.google.com/file/d/1k2yD7iG0_F8NONVt4alCFUDOFYKaF8Cw/view";
-    const history = useHistory()
+  //   const map ="https://drive.google.com/file/d/1k2yD7iG0_F8NONVt4alCFUDOFYKaF8Cw/view";
+  //   const history = useHistory()
 
   
   return (
    <>
     <div className="bonneraison2">
         <div className="container">
-           <h1>BONNES RAISONS DE NOUS CHOISIR ...</h1>
+           <h1>GOOD REASONS TO CHOOSE US...</h1>
            <div className="letrebonneraison2">
            {
                 data4.map(index =>{

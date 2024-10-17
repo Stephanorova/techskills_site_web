@@ -10,9 +10,9 @@ const SousCoures = () => {
   return (
     <div className="souscours">
     <div className="containers">
-       <h1>Les meilleurs cours</h1>
+       <h1>Our best courses</h1>
        <div className="toutelescours">
-        <p>« Nos cours sont conçus conformément à la Loi sur la Santé et la Sécurité au Travail à Madagascar. Cependant, nous tenons également compte des normes internationales de sécurité ainsi que des meilleures pratiques de l'industrie afin de fournir une formation de classe mondiale sur les travaux en hauteur, aussi bien à Madagascar qu'à l'international.»</p>
+        <p>«Our courses are designed in accordance with the Health and Safety at Work Act in Madagascar. However, we also take into account international safety standards as well as industry best practices in order to provide world-class training on working at heights, both in Madagascar and internationally.»</p>
       <div className="rawp">
        {
             dataCenter.map((index,val)  =>{
@@ -22,7 +22,7 @@ const SousCoures = () => {
                         <img src={index.image} alt="" />
                         </div>
                        <span>{index.titre}</span>
-                       <button onClick={()=>history.push(`/${val}`)}>Voir Cours</button>
+                       <button onClick={()=>history.push(`/${val}`)}>View Course</button>
                     </section>
                 )
             })

@@ -56,11 +56,11 @@ const CoursId = () => {
         <div className="pube">
          <section className="droite">
          <i class="fa fa-bell" aria-hidden="true"/>
-         <h5>S'ABONNER A NOTRE NEWSLETTER</h5>
+         <h5>SUBSCRIBE TO OUR NEWSLETTER</h5>
          </section>   
         <form onSubmit={sendEmail} className="mail" ref={form}>
         <input type="text"  name='user_email'  onChange={(e)=>setSaisire({...saisir , email : e.target.value})} placeholder='Enter your mail' />
-        <button >SOUSCRIRE</button>
+        <button >SUBSCRIBE</button>
         </form>
         </div>
          </div>

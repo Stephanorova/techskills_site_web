@@ -29,14 +29,14 @@ const Verification = () => {
   <div className="titrehaute">
   <span className='verificationspan'>- / Verification / students</span>
     <h1>
-        Vérification d'étudiant qui suivie nos formations
+    Verification of student who followed our training courses
     </h1>
   </div>
    <div className='cadre'>
       <form onSubmit={handleVerification} style={{ marginBottom: '10px' }}>
         <TextField
           fullWidth
-          label="Numéro de Certificat"
+          label="Certificate Number"
           variant="outlined"
           value={Ref} 
           onChange={(e) => setRef(e.target.value)} 
@@ -44,7 +44,7 @@ const Verification = () => {
           required
         />
         <Button variant="contained" color="primary" type="submit">
-          Vérifier
+          check
         </Button>
       </form>
 
@@ -59,22 +59,22 @@ const Verification = () => {
           <CardHeader title="Résultat de votre vérification" />
           <CardContent>
             <Typography variant="body1" gutterBottom>
-              <strong>Nom et Prénom de l'étudiant:</strong>{certificat.NomEtPrenomEtudient}
+              <strong>Student's first and last name:</strong>{certificat.NomEtPrenomEtudient}
             </Typography>
             <Typography variant="body1" gutterBottom>
-              <strong>Date de formation:</strong> {certificat.DateFormation}
+              <strong>Training date:</strong> {certificat.DateFormation}
             </Typography>
             <Typography variant="body1" gutterBottom>
-              <strong>Numéro certificat:</strong> {certificat.Ref}
+              <strong>Certificate Number:</strong> {certificat.Ref}
             </Typography>
             <Typography variant="body1" gutterBottom>
-              <strong>Numéro Etudiant:</strong> {certificat.Num}
+              <strong>Student Number:</strong> {certificat.Num}
             </Typography>
             <Typography variant="body1" gutterBottom>
-              <strong>Nom de Formation:</strong> {certificat.Formation}
+              <strong>Training Name:</strong> {certificat.Formation}
             </Typography>
             <Typography variant="body1" gutterBottom>
-              <strong>Nom de Societé:</strong> {certificat.Societe}
+              <strong>Company Name:</strong> {certificat.Societe}
             </Typography>
           </CardContent>
         </Card>

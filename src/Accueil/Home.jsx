@@ -12,7 +12,7 @@ const Home = () => {
         <div className="row">
             <h1><i>Institute Learning</i><img src="/image/suivre.png" alt="" /></h1>
             <hr />
-            <p>Techniciens du spectacle et de l'événement</p>
+            <p>Show and event technicians</p>
         </div>
     </div>
     <div className="souhome">
